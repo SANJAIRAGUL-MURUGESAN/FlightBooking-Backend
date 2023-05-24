@@ -212,6 +212,6 @@ app.use('/api/v1/booking',booker)
 
 // Server Listening Function
 
-app.listen(5000,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log('Server Listening to Port Number 3000...')
 })
